@@ -1,0 +1,36 @@
+{
+  "name": "@nival/avuetar",
+  "version": "0.42.12",
+  "main": "dist/library.js",
+  "type": "module",
+  "module": "dist/library.mjs",
+  "files": [
+    "dist/*"
+  ],
+  "description": "A simple avatar component for vue 3",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "random avatar",
+    "avatar vue",
+    "avatar generator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "vue": "^3.2.21"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-sucrase": "5.0.1",
+    "@vue/compiler-sfc": "^3.2.41",
+    "rollup": "^3.2.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-typescript2": "",
+    "rollup-plugin-vue": "^6.0.0",
+    "sass": "^1.55.0",
+    "tslib": "^2.4.0"
+  }
+}
