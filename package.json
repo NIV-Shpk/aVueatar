@@ -1,6 +1,6 @@
 {
   "name": "@nival/avuetar",
-  "version": "0.42.12",
+  "version": "0.42.12.1",
   "main": "dist/library.js",
   "type": "module",
   "module": "dist/library.mjs",
