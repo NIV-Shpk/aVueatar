@@ -38,21 +38,15 @@ borderSize?: number
 borderColor?: string
 radius?: number
 ```
-**value:** The value you wish to initialize the seeder.
 
-**displayValue:** Optional parameter which lets you define a different display value different from value. It makes sense only when using style="character".
-
-**size:** The number of pixels you wish your avatar to have.
-
-**shadow:** Applies box-shadow if it is set to true.
-
-**style:** Use 'shape' to use one of the shapes, character or empty if you want to display two letters.
-
-**border:** Applies a border if it is set to true.
-
-**borderSize:** Size in pixels of the border
-
-**borderColor:** Hex color code of the border.
-
-**radius:** Size in pixel of the border radius.
-
+| Prop  | Definition |
+| ------------- | ------------- |
+| ```value``` | The value you wish to initialize the seeder.  |
+| ```displayValue``` | Optional parameter which lets you define a different display value different from value. Has effect only when using ```style="character"```.  |
+| ```size``` | The number of pixels you wish your avatar to have. |
+| ```shadow``` | Applies box-shadow if it is set to true. |
+| ```style``` | Use ```shape``` to use shapes, ```characters``` or leave it empty empty if you want to display two letters. |
+| ```border``` | Applies a border if it is set to true. |
+| ```borderSize``` | Size in pixels of the border |
+| ```borderColor``` | Hex color code of the border.  |
+| ```radius``` | Size in pixel of the border radius.  |
